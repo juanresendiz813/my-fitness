@@ -10,14 +10,19 @@
 
 @layer components {
   .btn-primary {
-    @apply bg-primary-500 text-white px-6 py-3 rounded-lg font-semibold hover:bg-primary-600 transition-colors duration-200;
+    @apply bg-primary-500 text-white px-6 py-3 rounded-lg font-semibold hover:bg-primary-600 transition-colors duration-200 touch-manipulation min-h-[44px] flex items-center justify-center;
   }
   
   .btn-secondary {
-    @apply bg-accent-100 text-accent-700 px-6 py-3 rounded-lg font-semibold hover:bg-accent-200 transition-colors duration-200;
+    @apply bg-accent-100 text-accent-700 px-6 py-3 rounded-lg font-semibold hover:bg-accent-200 transition-colors duration-200 touch-manipulation min-h-[44px] flex items-center justify-center;
   }
   
   .card {
-    @apply bg-white p-6 rounded-xl shadow-sm border border-neutral-200;
+    @apply bg-white p-4 sm:p-6 rounded-xl shadow-sm border border-neutral-200;
+  }
+
+  /* Mobile touch targets */
+  .touch-target {
+    @apply min-h-[44px] min-w-[44px];
   }
 }

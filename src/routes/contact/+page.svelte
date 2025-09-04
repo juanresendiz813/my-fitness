@@ -1,9 +1,9 @@
 <!-- Hero Section -->
-<section class="bg-gradient-to-r from-accent-100 to-primary-50 py-16">
+<section class="bg-gradient-to-r from-accent-100 to-primary-50 py-12 sm:py-16">
 	<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 		<div class="text-center">
-			<h1 class="text-4xl md:text-5xl font-bold text-primary-700 mb-4">Let's Connect</h1>
-			<p class="text-xl text-neutral-600 max-w-2xl mx-auto">
+			<h1 class="text-3xl sm:text-4xl md:text-5xl font-bold text-primary-700 mb-4">Let's Connect</h1>
+			<p class="text-lg sm:text-xl text-neutral-600 max-w-2xl mx-auto px-2">
 				Ready to start your postpartum fitness journey? I'd love to hear from you.
 			</p>
 		</div>
@@ -11,33 +11,33 @@
 </section>
 
 <!-- Contact Options Section -->
-<section class="py-16">
+<section class="py-12 sm:py-16">
 	<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-		<div class="grid md:grid-cols-3 gap-8 mb-16">
+		<div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8 mb-12 sm:mb-16">
 			<div class="card text-center">
 				<div class="text-primary-500 text-4xl mb-4">📧</div>
-				<h3 class="text-xl font-semibold text-neutral-800 mb-3">Email Me</h3>
-				<p class="text-neutral-600 mb-4">Get in touch for questions, consultations, or collaboration opportunities.</p>
-				<a href="mailto:gaby@gabygarciafitness.com" class="text-primary-600 font-semibold hover:text-primary-700">
+				<h3 class="text-lg sm:text-xl font-semibold text-neutral-800 mb-3">Email Me</h3>
+				<p class="text-sm sm:text-base text-neutral-600 mb-4">Get in touch for questions, consultations, or collaboration opportunities.</p>
+				<a href="mailto:gaby@gabygarciafitness.com" class="text-primary-600 font-semibold hover:text-primary-700 text-sm sm:text-base break-all">
 					gaby@gabygarciafitness.com
 				</a>
 			</div>
 			
 			<div class="card text-center">
 				<div class="text-accent-500 text-4xl mb-4">📱</div>
-				<h3 class="text-xl font-semibold text-neutral-800 mb-3">Follow Me</h3>
-				<p class="text-neutral-600 mb-4">Daily inspiration, workout tips, and behind-the-scenes content on social media.</p>
+				<h3 class="text-lg sm:text-xl font-semibold text-neutral-800 mb-3">Follow Me</h3>
+				<p class="text-sm sm:text-base text-neutral-600 mb-4">Daily inspiration, workout tips, and behind-the-scenes content on social media.</p>
 				<div class="space-y-2">
-					<a href="https://instagram.com/gabygarciafitness" class="block text-primary-600 font-semibold hover:text-primary-700" target="_blank" rel="noopener noreferrer">@gabygarciafitness</a>
-					<p class="text-sm text-neutral-500">Instagram • YouTube • TikTok</p>
+					<a href="https://instagram.com/gabygarciafitness" class="block text-primary-600 font-semibold hover:text-primary-700 touch-target" target="_blank" rel="noopener noreferrer">@gabygarciafitness</a>
+					<p class="text-xs sm:text-sm text-neutral-500">Instagram • YouTube • TikTok</p>
 				</div>
 			</div>
 			
-			<div class="card text-center">
+			<div class="card text-center sm:col-span-2 lg:col-span-1">
 				<div class="text-primary-500 text-4xl mb-4">💬</div>
-				<h3 class="text-xl font-semibold text-neutral-800 mb-3">Free Consultation</h3>
-				<p class="text-neutral-600 mb-4">Book a 30-minute call to discuss your goals and how I can support your journey.</p>
-				<button class="btn-primary">Schedule Call</button>
+				<h3 class="text-lg sm:text-xl font-semibold text-neutral-800 mb-3">Free Consultation</h3>
+				<p class="text-sm sm:text-base text-neutral-600 mb-4">Book a 30-minute call to discuss your goals and how I can support your journey.</p>
+				<button class="btn-primary w-full sm:w-auto">Schedule Call</button>
 			</div>
 		</div>
 	</div>
