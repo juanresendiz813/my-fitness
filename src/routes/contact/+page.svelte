@@ -28,7 +28,7 @@
 				<h3 class="text-xl font-semibold text-neutral-800 mb-3">Follow Me</h3>
 				<p class="text-neutral-600 mb-4">Daily inspiration, workout tips, and behind-the-scenes content on social media.</p>
 				<div class="space-y-2">
-					<a href="#" class="block text-primary-600 font-semibold hover:text-primary-700">@gabygarciafitness</a>
+					<a href="https://instagram.com/gabygarciafitness" class="block text-primary-600 font-semibold hover:text-primary-700" target="_blank" rel="noopener noreferrer">@gabygarciafitness</a>
 					<p class="text-sm text-neutral-500">Instagram • YouTube • TikTok</p>
 				</div>
 			</div>

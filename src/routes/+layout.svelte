@@ -26,7 +26,7 @@
 					</div>
 				</div>
 				<div class="md:hidden">
-					<button class="text-neutral-400 hover:text-neutral-500 focus:outline-none focus:text-neutral-500">
+					<button class="text-neutral-400 hover:text-neutral-500 focus:outline-none focus:text-neutral-500" aria-label="Open mobile menu">
 						<svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
 							<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
 						</svg>
