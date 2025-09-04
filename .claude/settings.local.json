@@ -11,7 +11,8 @@
       "WebSearch",
       "WebSearch",
       "WebSearch",
-      "WebSearch"
+      "WebSearch",
+      "Bash(npm run build:*)"
     ],
     "deny": [],
     "ask": []
