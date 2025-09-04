@@ -9,7 +9,11 @@ const config = {
 			fallback: 'index.html',
 			precompress: false,
 			strict: true
-		})
+		}),
+		paths: {
+      		// replace 'my-repo' with your GitHub repo name
+      		base: process.env.NODE_ENV === "production" ? "/my-fitness" : ""
+    	}
 	}
 };
 
